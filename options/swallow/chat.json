@@ -1,0 +1,86 @@
+[
+    { "msgs": ["好想我的傻老婆，她在干什么呀？"], "msgInputSpeed": 80 },
+    {
+        "msgs": ["老婆今天是什么日子知道吗，要回答的哦"],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["情人节", "情人", "纪念日"],
+                "rejectKeyTexts": [],
+                "rejectHitTexts": [
+                    "傻老婆，还是笨笨的呀"
+                ]
+            }
+        }
+    },
+    {
+        "msgs": ["知道我现在在想什么吗？"],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["我","想我", "想女朋友"],
+                "rejectKeyTexts": ["不想"],
+                "rejectHitTexts": [
+                    "可以照照镜子呀"
+                ]
+            }
+        }
+    },
+    {
+        "msgs": ["我现在当然是在想打游戏", "我现在当然是在想你啦～"],
+        "msgInputSpeed": 80
+    },
+
+    { "msgs": ["傻老婆"], "msgInputSpeed": 100 },
+    { "msgs": ["这些天经常惹你生气"], "msgInputSpeed": 140 },
+    { "msgs": ["是我不对，最近事情太多，我太急躁了"], "msgInputSpeed": 130 },
+    { "msgs": ["以后肯定不会这样了"], "msgInputSpeed": 130 },
+    { "msgs": ["再这样允许你把我胡子毛毛拔了😭"], "msgInputSpeed": 130 },
+    { "msgs": ["我错了，老婆，以后不会了"], "msgInputSpeed": 180 },
+    { "msgs": ["我错了，老婆，以后不会了"], "msgInputSpeed": 180 },
+    { "msgs": ["我错了，老婆，以后不会了"], "msgInputSpeed": 180 },
+    {
+        "msgs": ["傻老婆原谅我好不好？"],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["好","原谅"],
+                "rejectKeyTexts": ["不"],
+                "rejectHitTexts": [
+                    "不准说不😠"
+                ]
+            }
+        }
+    },
+    { "msgs": ["我就知道，傻老婆真贴心"], "msgInputSpeed": 100 },
+    { "msgs": ["对了，我忘记给你准备节日礼物了"], "msgInputSpeed": 100 },
+    { "msgs": ["你会不会不开心"], "msgInputSpeed": 180 },
+    { "msgs": ["emmm，其实是时间来不及了"], "msgInputSpeed": 180 },
+    { "msgs": ["没法准备比较浪漫的礼物，"], "msgInputSpeed": 180 },
+    {
+        "msgs": ["我写了封信给你，傻老婆要看看不？"],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["好","看","可以","要"],
+                "rejectKeyTexts": [""],
+                "rejectHitTexts": [
+                    "傻老婆还是笨笨的"
+                ]
+            }
+        }
+    },
+    {
+        "msgs": ["<letter src='options/swallow/letter.json'/>"],
+        "triggerNextAction": { "type": "componentClose" }
+    },
+    { "msgs": ["有没有感动呀"] , "msgInputSpeed": 100},
+    { "msgs": ["还有一件事，刚刚骗你的"] , "msgInputSpeed": 100},
+    { "msgs": ["礼物还是有的，回家再看看喽"], "msgInputSpeed": 100 },
+    { "msgs": ["不过现在最重要的事是想想晚上吃啥"], "msgInputSpeed": 100 },
+    { "msgs": ["晚上吃大餐，今天庆祝下，哈哈"]}
+]
